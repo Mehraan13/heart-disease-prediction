@@ -1,15 +1,9 @@
 # Heart Disease Prediction
 
-**Goal:** Build and deploy a simple ML model to predict heart disease.
+**Goal:** Build, evaluate, and explain a simple machine‑learning model to predict the presence of heart disease using the UCI Cleveland dataset. This project showcases a full ML workflow—from data ingestion and exploratory analysis to model training, evaluation, and interpretation—using clean, modular code and clear visualizations.
 
-## Structure
-- `data/` – UCI dataset CSV  
-- `notebooks/` – exploratory analysis  
-- `models/` – saved `.pkl` files  
-- `app.py` – Streamlit front‑end  
-
-## Quick Start
-1. `python3 -m venv venv && source venv/bin/activate`  
-2. `pip install -r requirements.txt`  
-3. Download data into `data/` (see next steps)  
-4. `streamlit run app.py`
+| Model               | Accuracy | Precision | Recall | ROC AUC |
+|---------------------|---------:|----------:|-------:|--------:|
+| LogisticRegression  | 0.869    | 0.833     | 0.893  | 0.958   |
+| RandomForest        | 0.885    | 0.839     | 0.929  | **0.962** |
+| XGBoost             | 0.902    | 0.867     | 0.929  | 0.953   |
