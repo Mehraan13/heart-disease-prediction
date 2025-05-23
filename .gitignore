@@ -11,13 +11,6 @@ venv/
 env/
 .venv/
 
-# Models and serialized objects
-models/
-*.pkl
-*.joblib
-
-data/
-
 # Logs
 *.log
 
@@ -28,3 +21,13 @@ Thumbs.db
 # IDE settings
 .vscode/
 .idea/
+
+# Persisted models, splits, scaler
+/models/
+/*.pkl
+/*.joblib
+
+# Evaluation reports (plots)
+/reports/
+
+/data/
