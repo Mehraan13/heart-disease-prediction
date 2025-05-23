@@ -14,21 +14,21 @@
 
 ### 1. Clone the repository and set up a virtual environment
 
-git clone github.com/Mehraan13/heart-disease-prediction
-cd heart-disease-prediction
-python3 -m venv venv venv\Scripts\activate
+git clone github.com/Mehraan13/heart-disease-prediction  <br>
+cd heart-disease-prediction  <br>
+python3 -m venv venv venv\Scripts\activate  <br>
 
 ### 2. Install Dependencies
 pip install -r requirements.txt
 
 ### 3. Run Pipiline Scripts
-python scripts/ingest.py        # Download and save raw data to data/heart.csv
-python scripts/preprocess.py    # Clean, encode, scale, split data
-python scripts/train.py         # Train and save Random Forest model
-python scripts/evaluate.py      # Evaluate model and generate visual reports
+python scripts/ingest.py        # Download and save raw data to data/heart.csv  <br>
+python scripts/preprocess.py    # Clean, encode, scale, split data <br>
+python scripts/train.py         # Train and save Random Forest model <br>
+python scripts/evaluate.py      # Evaluate model and generate visual reports <br>
 
 ### 4. View Results
 
-Raw Data: data/heart.csv
-Saved Models: models/
-Plots and Metrics: reports/
+Raw Data: data/heart.csv         <br>
+Saved Models: models/<br>
+Plots and Metrics: reports/<br>
